@@ -1,0 +1,16 @@
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+#topic-list li {
+    display: grid;
+    grid-template-columns: auto 1fr  auto;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#topic-list button {
+    margin-left: 0;
+}
